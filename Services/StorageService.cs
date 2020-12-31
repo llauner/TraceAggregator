@@ -27,7 +27,7 @@ namespace TraceAggregator.Services
         /// <returns></returns>
         public IList<string> GetFilenameList(string prefix)
         {
-            var enumerable = _storageClient.ListObjects(_configuration.TraceAggregatorBucketName);
+            var enumerable = _storageClient.ListObjects(_configuration.TraceAggregatorBucketName, prefix);
             var list = enumerable.ToList();
             var filenameList = list.Select(o => o.Name).ToList();
 
