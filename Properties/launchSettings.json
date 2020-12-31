@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "TraceAggregator": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "C:\\llauner\\GoogleCloud_Credentials\\Service_Account_Key-igcheatmap-f012be117f9c.json"
+      }
+    }
+  },
+
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  }
+}
